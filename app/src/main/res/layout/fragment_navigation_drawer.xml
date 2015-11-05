@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="org.arise.fragments.NavigationDrawer">
+    <!--<LinearLayout-->
+        <!--android:background="@android:color/transparent"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0px"-->
+        <!--android:layout_weight="1">-->
+
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:background="#C62828"
+        android:id="@+id/recycler_container"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <ListView
+            android:scrollbarSize="3dp"
+            android:scrollbarThumbVertical="@color/scrollbar_color"
+            android:layout_marginRight="2dp"
+            android:background="#757575"
+            android:id="@+id/list_options"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:dividerHeight="2dp"
+            android:divider="@drawable/abc_list_selector_background_transition_holo_light"/>
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:background="@android:color/transparent"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0px"-->
+        <!--android:layout_weight="1">-->
+
+    <!--</LinearLayout>-->
+
+
+</LinearLayout>

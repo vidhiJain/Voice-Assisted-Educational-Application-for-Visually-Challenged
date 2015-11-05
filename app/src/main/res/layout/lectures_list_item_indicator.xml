@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:drawable/dialog_holo_light_frame"
+    >
+    <LinearLayout
+        android:id="@+id/top"
+        android:orientation="horizontal"
+        android:background="#ff414141"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/ic_lecture"
+            android:layout_margin="8dp" />
+
+
+        <TextView
+            android:id="@+id/lecture_title"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:textSize="17dp"
+            android:textColor="#fff"
+            android:layout_margin="8dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_alignBottom="@+id/top"
+        android:id="@+id/lecture_status"
+        android:layout_width="match_parent"
+        android:textColor="#000"
+        android:gravity="center"
+        android:elevation="50dp"
+        android:layout_height="30dp" />
+</RelativeLayout>
